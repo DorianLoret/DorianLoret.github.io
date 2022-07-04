@@ -1,50 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Quiz</title>
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <link href="./style.css" rel="stylesheet">
 </head>
 
 <body>
-    <h1>COURS GITHUB</h1>
-    <h2>Version 2</h2>
 
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat voluptatem culpa saepe vero placeat provident
-        nam dignissimos dolorem dolore alias? Dicta sed, dolorem possimus molestiae dolore non nobis enim eius.</p>
+  <div class="container">
+    <div id="quiz">
+      <h1><span>Q</span>uiz <i class="far fa-question-circle"></i></h1>
 
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis ea minima error officiis, consequuntur,
-        amet, accusamus nesciunt inventore ducimus perferendis iure? Dolor consequuntur sit, quaerat iste molestias
-        autem repellendus amet consequatur obcaecati dolores soluta minima architecto cupiditate perferendis aliquid
-        similique exercitationem ratione ducimus sequi doloremque vero distinctio, nesciunt libero. Nesciunt enim, harum
-        vitae, facilis iure nostrum aut similique earum facere accusantium quam aliquid deserunt voluptas consequuntur.
-        Perferendis odio sit aut sequi ea, dignissimos nam blanditiis labore officia quas autem maxime inventore
-        repellat architecto et neque quis tempore delectus laboriosam nihil adipisci vitae? Iure est tempore quasi qui
-        corporis rem voluptatibus minus consectetur, excepturi laboriosam optio voluptatum accusamus eveniet beatae eos
-        debitis deleniti voluptatem quae earum quo enim explicabo. Blanditiis officia dicta ullam voluptates aperiam
-        fugit, exercitationem repudiandae ipsam aspernatur necessitatibus distinctio quod, alias facere eaque culpa
-        rerum nisi corrupti obcaecati sed odio. Alias labore facilis repudiandae, sequi, itaque repellendus, et
-        explicabo corrupti consequuntur fuga ducimus officiis perferendis delectus molestiae numquam vero accusamus ad
-        ex architecto tempore dolorem nesciunt recusandae sit molestias! Dolorum molestiae quasi enim atque deleniti ad
-        voluptas numquam. Officia tenetur nulla dolorum nihil impedit perferendis quas expedita eligendi harum obcaecati
-        quae ullam id dolores molestiae consectetur sint assumenda rerum, magnam et totam! Doloribus minus dolorem ipsum
-        iste neque ex optio consectetur quibusdam a, explicabo deleniti reprehenderit? Harum et quos aliquam quibusdam
-        quo dignissimos? Obcaecati aspernatur corrupti, ea voluptate aperiam nostrum, modi quia recusandae neque
-        molestias consectetur fugit soluta excepturi quis repellendus corporis voluptas repudiandae exercitationem iure
-        reprehenderit mollitia, architecto enim nihil dolorum? Quos voluptas minima excepturi, laborum ipsum odio error
-        incidunt, eius temporibus est numquam magni voluptates porro officia molestias ducimus maxime. Laboriosam maxime
-        deserunt nesciunt, optio libero rerum sequi pariatur hic accusamus vero omnis quos reprehenderit minus sit enim
-        in repudiandae itaque saepe ex. Ab, labore deserunt! Beatae sequi quia accusantium dolore facere, nam dolorem
-        quam obcaecati ducimus perspiciatis neque expedita ipsum sapiente nesciunt animi amet debitis voluptatibus nulla
-        cumque nobis nostrum sed laboriosam ipsa? Eos ipsa harum ab quibusdam dolorum illo, at beatae sequi temporibus
-        eveniet, iure magnam fugiat praesentium atque iusto hic numquam ea dolorem minus aliquam, sapiente repellendus
-        voluptatum! Soluta quaerat minima rerum beatae omnis dolores suscipit distinctio rem vero in facilis nulla neque
-        exercitationem impedit dolor dolorem amet laborum eveniet, dignissimos aperiam. Porro quasi sint, fuga
-        voluptatem animi iste voluptatibus id sit reiciendis perspiciatis quidem quae, ex soluta, omnis dolorum maiores
-        rem maxime!</p>
+      <h2 id="question"></h2>
 
+      <h3 id="score"></h3>
+
+      <div class="choices">
+        <button id="guess0" class="btn">
+          <p id="choice0"></p>
+        </button>
+
+        <button id="guess1" class="btn">
+          <p id="choice1"></p>
+        </button>
+
+        <button id="guess2" class="btn">
+          <p id="choice2"></p>
+        </button>
+
+        <button id="guess3" class="btn">
+          <p id="choice3"></p>
+        </button>
+      </div>
+
+      <p id="progress"></p>
+
+    </div>
+  </div>
+
+  <script src="./index.js"></script>
 </body>
+
+
 
 </html>
